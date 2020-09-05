@@ -139,4 +139,39 @@ table {
   font-style: normal;
   font-weight: normal;
 }
+
+@font-face {
+  font-family: "NamukoSans";
+  src: url("../../font/NamukoSans.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+.logo {
+  font-size: 19px;
+  line-height: 1.2;
+  font-family: "NamukoSans", sans-serif;
+  color: #ffffff;
+}
+
+.hero {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(220, 46, 46, 0.7)), to(rgba(220, 46, 46, 0.7))), url(../../img/background.png);
+  background-image: linear-gradient(rgba(220, 46, 46, 0.7), rgba(220, 46, 46, 0.7)), url(../../img/background.png);
+  padding-top: 240px;
+  padding-bottom: 185px;
+}
+
+.hero-title {
+  font-size: 72px;
+  font-family: "ROBO", sans-serif;
+  color: #ffffff;
+  text-transform: uppercase;
+  line-height: 1;
+  text-align: center;
+  letter-spacing: 0.03;
+}
+
+.hero-title > span {
+  font-size: 52px;
+}
 /*# sourceMappingURL=main.css.map */

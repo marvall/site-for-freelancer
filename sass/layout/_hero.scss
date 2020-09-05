@@ -1,0 +1,17 @@
+.hero{
+    background-image: linear-gradient($bg-color, $bg-color),url(../../img/background.png);
+    padding-top: 240px;
+    padding-bottom: 185px;;
+}
+.hero-title {
+    font-size: 72px;
+    font-family: $font-title;
+    color: $light-text-color;
+    text-transform: uppercase;
+    line-height: 1;
+    text-align: center;
+    letter-spacing: 0.03;
+    >span{
+        font-size: 52px
+    }
+  }

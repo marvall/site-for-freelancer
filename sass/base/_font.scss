@@ -7,3 +7,12 @@
     font-style: normal; 
     font-weight: normal; 
 } 
+
+@font-face {
+    // название шрифта(чтобы не запутаться лучше указать название папки со шрифтом) 
+    font-family: "NamukoSans"; 
+    // адрес шрифта и тип 
+    src: url("../../font/NamukoSans.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+} 
